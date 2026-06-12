@@ -8,7 +8,7 @@ import {
   CalendarView,
   OnCallView,
   TeamView,
-} from "./Components";
+} from "./components";
 
 export default function App() {
   const [leaves, setLeaves] = useState(() => loadLeaves());
